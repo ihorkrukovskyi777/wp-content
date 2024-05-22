@@ -22,7 +22,7 @@
 <?php include( 'template-parts/css-parts/header-css.php' ); ?>
 <?php include( 'template-parts/css-parts/general-css.php' ); ?>
 <header>
-    <div class="fixing lox">
+    <div class="fixing">
         <div class="container">
             <div class="logo">
                 <a href="/">
