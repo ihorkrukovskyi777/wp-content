@@ -4,7 +4,7 @@
         $button = get_field('button');
         $image = get_field('image');
         $background = get_field('background');
-        $background_color = get_field('background_color') ? get_field('background_color') : '#E3C6C7';
+        $background_color = get_field('background_color') ? get_field('background_color') : '#E8C5C7';
 
     ?>
     <div class="wrapper_home_banner" style="background-color: <?=$background_color?>">
@@ -19,8 +19,6 @@
             <?php if ($background):?>
                 <img class="background_image" src="<?=$background['url']?>" alt="<?=$background['alt']?>"  />
             <?php endif; ?>
-
         </div>
     </div>
-
 </section>  
