@@ -7,18 +7,18 @@ header{
     background: #fff;
 }
 header .container{
-    background-color: green;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 26px;
-    padding-bottom: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 header nav {
     display: flex;
 }
 header nav ul {
     display: flex;
+    margin: 0;
 }
 header nav li{
     position: relative;
@@ -31,19 +31,26 @@ header nav li.no_open > a {
 
 }
 
-
 header nav li a{
     padding: 13px 26px;
     color: var(--text_color);
     display: block;
     text-decoration: none!important;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.16;
     font-weight: 500;
     position: relative;
 }
 header nav li a:hover{
     color: var(--main_color);
+}
+header .logo {
+    width: 100%;
+    max-width: 104px;
+}
+header .logo img {
+    width: 100%;
+    height: auto;
 }
 header nav .menu-header-menu-container > ul > li{
     display: inline-block;

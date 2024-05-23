@@ -3,6 +3,7 @@
 :root {
     --main_color: #9AC7AF;
     --hover_color: #0088BD;
+    /*--hover_btn_color: #9AC7AF;*/
     --text_color: #003028;
     --font: "Inter", sans-serif;
     --font_second: "Ubuntu", sans-serif;
@@ -45,7 +46,7 @@ ol{
     width: 100%;
     padding: 0 20px;
     margin: 0 auto;
-    max-width: 1240px;
+    max-width: 1320px;
 }
 *,
 :after,

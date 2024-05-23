@@ -56,7 +56,7 @@ if ( function_exists('register_sidebar') )
 
 function register_my_menus(){
     register_nav_menus (
-        array('header-menu' => 'header-menu1', 'footer-menu' => 'footer-menu1' , 'header-menu-left' => 'header-menu-left1')
+        array('header-menu' => 'header-menu1', 'footer-menu' => 'footer-menu1' , 'footer-menu2' => 'footer-menu2','footer-menu3' => 'footer-menu3', 'header-menu-left' => 'header-menu-left1')
     );
 }
 
