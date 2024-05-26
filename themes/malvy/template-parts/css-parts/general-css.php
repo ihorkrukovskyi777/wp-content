@@ -100,12 +100,13 @@ h1 {
 }
 h2 {
     font-family: var(--font_second);
-    font-size: 48px;
+    font-size: 36px;
+    font-weight: 700;
     color: var(--text_color);
 }
 h3 {
     font-family: var(--font_second);
-    font-size: 38px;
+    font-size: 32px;
     color: var(--text_color);
 }
 h4 {
@@ -124,5 +125,10 @@ h6 {
     color: var(--text_color);
 }
 
+@media(max-width: 767px) {
+    h2 {
+        font-size: 26px;
+    }
+}
 
 </style>
