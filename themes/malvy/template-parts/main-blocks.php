@@ -26,5 +26,11 @@ function acf_register_block_types(){
         'render_template' => '/template-parts/sections/accordion-section/accordion-section.php',
         'icon' => 'editor-paste-text',
     ));
+    acf_register_block_type(array(
+        'name' => 'posts-section',
+        'title' => __('Posts Section'),
+        'render_template' => '/template-parts/sections/posts-section/posts-section.php',
+        'icon' => 'editor-paste-text',
+    ));
 
 }
