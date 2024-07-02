@@ -3,6 +3,7 @@
 :root {
     --main_color: #9AC7AF;
     --hover_color: #0088BD;
+    /*--hover_btn_color: #9AC7AF;*/
     --text_color: #003028;
     --font: "Inter", sans-serif;
     --font_second: "Ubuntu", sans-serif;
@@ -45,7 +46,7 @@ ol{
     width: 100%;
     padding: 0 20px;
     margin: 0 auto;
-    max-width: 1240px;
+    max-width: 1320px;
 }
 *,
 :after,
@@ -99,12 +100,13 @@ h1 {
 }
 h2 {
     font-family: var(--font_second);
-    font-size: 48px;
+    font-size: 36px;
+    font-weight: 700;
     color: var(--text_color);
 }
 h3 {
     font-family: var(--font_second);
-    font-size: 38px;
+    font-size: 32px;
     color: var(--text_color);
 }
 h4 {
@@ -123,5 +125,10 @@ h6 {
     color: var(--text_color);
 }
 
+@media(max-width: 767px) {
+    h2 {
+        font-size: 26px;
+    }
+}
 
 </style>
