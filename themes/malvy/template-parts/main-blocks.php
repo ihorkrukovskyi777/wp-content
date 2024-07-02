@@ -13,7 +13,6 @@ function acf_register_block_types(){
         'enqueue_script' => get_template_directory_uri() . '/template-parts/sections/home-banner/home-banner.js',
         'icon' => 'editor-paste-text'
     ));
-
     acf_register_block_type(array(
         'name' => 'contact-section',
         'title' => __('Contact Section'),
@@ -32,5 +31,16 @@ function acf_register_block_types(){
         'render_template' => '/template-parts/sections/posts-section/posts-section.php',
         'icon' => 'editor-paste-text',
     ));
-
+    acf_register_block_type(array(
+        'name' => 'framed_text_and_image',
+        'title' => __('Framed Text and Image'),
+        'render_template' => '/template-parts/sections/framed_text_and_image/framed_text_and_image.php',
+        'icon' => 'editor-paste-text'
+    ));
+    acf_register_block_type(array(
+        'name' => 'text_cards_block',
+        'title' => __('Text Cards Block'),
+        'render_template' => '/template-parts/sections/text_cards_block/text_cards_block.php',
+        'icon' => 'editor-paste-text'
+    )); 
 }
